@@ -1,0 +1,8 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"c:/Dev/Games/MonoGameEngine/Content/../assets/misha_stand.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/misha_stand.xnb","TextureProcessor","Texture2DContent",88892,88085,0.1494478
+"c:/Dev/Games/MonoGameEngine/Content/ball.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.1334376
+"c:/Dev/Games/MonoGameEngine/Content/field_background.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/field_background.xnb","TextureProcessor","Texture2DContent",1046162,2805845,0.1027753
+"c:/Dev/Games/MonoGameEngine/Content/misha_walk_0.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/misha_walk_0.xnb","TextureProcessor","Texture2DContent",46968,81045,0.1636625
+"c:/Dev/Games/MonoGameEngine/Content/misha_walk_1.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/misha_walk_1.xnb","TextureProcessor","Texture2DContent",44462,76645,0.0213485
+"c:/Dev/Games/MonoGameEngine/Content/misha_walk_2.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/misha_walk_2.xnb","TextureProcessor","Texture2DContent",48894,88085,0.0201055
+"c:/Dev/Games/MonoGameEngine/Content/rodant.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/rodant.xnb","TextureProcessor","Texture2DContent",30938,30357,0.1597388

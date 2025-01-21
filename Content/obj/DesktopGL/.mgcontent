@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>c:/Dev/Games/MonoGameEngine/Content/../assets/misha_stand.png</File>
+    <File>c:/Dev/Games/MonoGameEngine/Content/ball.png</File>
+    <File>c:/Dev/Games/MonoGameEngine/Content/field_background.png</File>
+    <File>c:/Dev/Games/MonoGameEngine/Content/misha_walk_0.png</File>
+    <File>c:/Dev/Games/MonoGameEngine/Content/misha_walk_1.png</File>
+    <File>c:/Dev/Games/MonoGameEngine/Content/misha_walk_2.png</File>
+    <File>c:/Dev/Games/MonoGameEngine/Content/rodant.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>misha_stand.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
