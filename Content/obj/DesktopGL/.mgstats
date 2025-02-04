@@ -1,8 +1,17 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"c:/Dev/Games/MonoGameEngine/Content/../assets/misha_stand.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/misha_stand.xnb","TextureProcessor","Texture2DContent",88892,88085,0.1494478
-"c:/Dev/Games/MonoGameEngine/Content/ball.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.1334376
-"c:/Dev/Games/MonoGameEngine/Content/field_background.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/field_background.xnb","TextureProcessor","Texture2DContent",1046162,2805845,0.1027753
-"c:/Dev/Games/MonoGameEngine/Content/misha_walk_0.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/misha_walk_0.xnb","TextureProcessor","Texture2DContent",46968,81045,0.1636625
-"c:/Dev/Games/MonoGameEngine/Content/misha_walk_1.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/misha_walk_1.xnb","TextureProcessor","Texture2DContent",44462,76645,0.0213485
-"c:/Dev/Games/MonoGameEngine/Content/misha_walk_2.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/misha_walk_2.xnb","TextureProcessor","Texture2DContent",48894,88085,0.0201055
-"c:/Dev/Games/MonoGameEngine/Content/rodant.png","c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/rodant.xnb","TextureProcessor","Texture2DContent",30938,30357,0.1597388
+"c:/Dev/Games/MishaTheRodantSlayer/Content/../assets/menu_buttons/menu_000.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/menu_000.xnb","TextureProcessor","Texture2DContent",90826,220885,0.1495019
+"c:/Dev/Games/MishaTheRodantSlayer/Content/../assets/menu_buttons/menu_001.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/menu_001.xnb","TextureProcessor","Texture2DContent",99172,228685,0.0112227
+"c:/Dev/Games/MishaTheRodantSlayer/Content/../assets/menu_buttons/menu_002.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/menu_002.xnb","TextureProcessor","Texture2DContent",98525,226885,0.0130893
+"c:/Dev/Games/MishaTheRodantSlayer/Content/../assets/rodant.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/rodant.xnb","TextureProcessor","Texture2DContent",7050,3805,0.0037917
+"c:/Dev/Games/MishaTheRodantSlayer/Content/ball.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.0071138
+"c:/Dev/Games/MishaTheRodantSlayer/Content/field_background.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/field_background.xnb","TextureProcessor","Texture2DContent",1046162,2805845,0.1043712
+"c:/Dev/Games/MishaTheRodantSlayer/Content/menu_000.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/menu_000.xnb","TextureProcessor","Texture2DContent",90826,220885,0.0120062
+"c:/Dev/Games/MishaTheRodantSlayer/Content/menu_001.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/menu_001.xnb","TextureProcessor","Texture2DContent",99172,228685,0.0126561
+"c:/Dev/Games/MishaTheRodantSlayer/Content/menu_002.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/menu_002.xnb","TextureProcessor","Texture2DContent",98525,226885,0.017042
+"c:/Dev/Games/MishaTheRodantSlayer/Content/menu_003.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/menu_003.xnb","TextureProcessor","Texture2DContent",115349,241285,0.0166901
+"c:/Dev/Games/MishaTheRodantSlayer/Content/misha_stand_000.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/misha_stand_000.xnb","TextureProcessor","Texture2DContent",15749,18085,0.1258815
+"c:/Dev/Games/MishaTheRodantSlayer/Content/misha_walk_000.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/misha_walk_000.xnb","TextureProcessor","Texture2DContent",3637,16485,0.0078167
+"c:/Dev/Games/MishaTheRodantSlayer/Content/misha_walk_001.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/misha_walk_001.xnb","TextureProcessor","Texture2DContent",3734,15685,0.0143495
+"c:/Dev/Games/MishaTheRodantSlayer/Content/misha_walk_002.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/misha_walk_002.xnb","TextureProcessor","Texture2DContent",3668,18085,0.0090832
+"c:/Dev/Games/MishaTheRodantSlayer/Content/no.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/no.xnb","TextureProcessor","Texture2DContent",25325,39285,0.0120697
+"c:/Dev/Games/MishaTheRodantSlayer/Content/yes.png","c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/yes.xnb","TextureProcessor","Texture2DContent",25905,40485,0.012076

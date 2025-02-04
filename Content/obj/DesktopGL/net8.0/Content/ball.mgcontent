@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Dev/Games/MonoGameEngine/Content/ball.png</SourceFile>
+  <SourceFile>c:/Dev/Games/MishaTheRodantSlayer/Content/ball.png</SourceFile>
   <SourceTime>2025-01-20T08:43:16.929408+02:00</SourceTime>
-  <DestFile>c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
-  <DestTime>2025-01-20T08:51:52.8986318+02:00</DestTime>
+  <DestFile>c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
+  <DestTime>2025-01-21T12:58:01.3997294+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T20:05:56+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
