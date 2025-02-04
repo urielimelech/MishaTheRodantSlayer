@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Dev/Games/MonoGameEngine/Content/rodant.png</SourceFile>
-  <SourceTime>2025-01-21T11:47:16.9742853+02:00</SourceTime>
-  <DestFile>c:/Dev/Games/MonoGameEngine/Content/bin/DesktopGL/rodant.xnb</DestFile>
-  <DestTime>2025-01-21T11:48:12.3996478+02:00</DestTime>
+  <SourceFile>c:/Dev/Games/MishaTheRodantSlayer/Content/../assets/rodant.png</SourceFile>
+  <SourceTime>2025-02-04T13:24:49.7807342+02:00</SourceTime>
+  <DestFile>c:/Dev/Games/MishaTheRodantSlayer/Content/bin/DesktopGL/rodant.xnb</DestFile>
+  <DestTime>2025-02-04T13:40:38.6964406+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T20:05:56+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -4,16 +4,34 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Dev/Games/MonoGameEngine/Content/../assets/misha_stand.png</File>
-    <File>c:/Dev/Games/MonoGameEngine/Content/ball.png</File>
-    <File>c:/Dev/Games/MonoGameEngine/Content/field_background.png</File>
-    <File>c:/Dev/Games/MonoGameEngine/Content/misha_walk_0.png</File>
-    <File>c:/Dev/Games/MonoGameEngine/Content/misha_walk_1.png</File>
-    <File>c:/Dev/Games/MonoGameEngine/Content/misha_walk_2.png</File>
-    <File>c:/Dev/Games/MonoGameEngine/Content/rodant.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/../assets/menu_buttons/menu_000.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/../assets/menu_buttons/menu_001.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/../assets/menu_buttons/menu_002.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/ball.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/field_background.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/menu_000.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/menu_001.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/menu_002.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/menu_003.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/misha_stand_000.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/misha_walk_000.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/misha_walk_001.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/misha_walk_002.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/no.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/rodant.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/yes.png</File>
   </SourceFiles>
   <DestFiles>
-    <File>misha_stand.png</File>
+    <File>menu_000.png</File>
+    <File>menu_001.png</File>
+    <File>menu_002.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

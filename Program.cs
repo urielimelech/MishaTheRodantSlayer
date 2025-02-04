@@ -1,2 +1,2 @@
-﻿using var game = new MishaTheRodantSlayer.Main.MishaTheRodantSlayer();
+﻿using var game = new MishaTheRodantSlayer.Core.MainGameProcess.GameProcess();
 game.Run();

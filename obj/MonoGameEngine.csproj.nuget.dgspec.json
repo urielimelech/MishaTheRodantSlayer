@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Games\\MishaTheRodantSlayer\\MonoGameEngine.csproj": {}
+    "c:\\Dev\\Games\\MishaTheRodantSlayer\\MonoGameEngine.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Games\\MishaTheRodantSlayer\\MonoGameEngine.csproj": {
+    "c:\\Dev\\Games\\MishaTheRodantSlayer\\MonoGameEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Games\\MishaTheRodantSlayer\\MonoGameEngine.csproj",
+        "projectUniqueName": "c:\\Dev\\Games\\MishaTheRodantSlayer\\MonoGameEngine.csproj",
         "projectName": "MonoGameEngine",
-        "projectPath": "C:\\Dev\\Games\\MishaTheRodantSlayer\\MonoGameEngine.csproj",
+        "projectPath": "c:\\Dev\\Games\\MishaTheRodantSlayer\\MonoGameEngine.csproj",
         "packagesPath": "C:\\Users\\Uri\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Games\\MishaTheRodantSlayer\\obj\\",
+        "outputPath": "c:\\Dev\\Games\\MishaTheRodantSlayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
