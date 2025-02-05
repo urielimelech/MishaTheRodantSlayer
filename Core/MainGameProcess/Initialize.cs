@@ -22,8 +22,6 @@ public partial class GameProcess : Game
         graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
-        // gameScene = new GameScene();
-        // menuScene = new MenuScene();
     }
 
     protected override void Initialize()
@@ -33,9 +31,6 @@ public partial class GameProcess : Game
         graphics.ApplyChanges();
 
         gsm = new GameStateManager();
-
-        // gameScene.Initialize();
-        // mainCharacter = new MainCharacter();
 
         base.Initialize();
     }

@@ -15,11 +15,6 @@ namespace MishaTheRodantSlayer.Core.Basics
         {
 
         }
-        // public GameObject(string textureName)
-        // {
-        //     this.textureName = textureName;
-        // }
-
         internal override void LoadContent(ContentManager content)
         {
             Texture = content.Load<Texture2D>(TextureName);
@@ -34,6 +29,10 @@ namespace MishaTheRodantSlayer.Core.Basics
         internal override void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(Texture, Rectangle, Color.White);
+        }
+        internal Rectangle GetBoundingBox()
+        {
+            return Rectangle;
         }
     }
 }

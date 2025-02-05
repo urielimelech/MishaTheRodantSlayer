@@ -73,3 +73,4 @@ c:\Dev\Games\MishaTheRodantSlayer\bin\Debug\net8.0\Content\misha_walk_002.xnb
 c:\Dev\Games\MishaTheRodantSlayer\bin\Debug\net8.0\Content\menu_003.xnb
 c:\Dev\Games\MishaTheRodantSlayer\bin\Debug\net8.0\Content\no.xnb
 c:\Dev\Games\MishaTheRodantSlayer\bin\Debug\net8.0\Content\yes.xnb
+c:\Dev\Games\MishaTheRodantSlayer\bin\Debug\net8.0\Content\game_over.xnb

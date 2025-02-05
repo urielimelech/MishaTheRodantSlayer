@@ -1,5 +1,4 @@
 using System;
-using GameData.Utils.DesignPatterns.Notifier;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
@@ -11,6 +10,7 @@ namespace MishaTheRodantSlayer.Core.Basics
         float objectSpeed;
         int deadZone;
         private readonly Notifier<bool> movementNotifier;
+        private bool isGameOver;
 
         public ControlSystem2D(Vector2 objectPosition)
         {
@@ -18,6 +18,7 @@ namespace MishaTheRodantSlayer.Core.Basics
             objectSpeed = 100f;
             deadZone = 4096;
             movementNotifier = new Notifier<bool>();
+            isGameOver = false;
         }
         public ControlSystem2D(Vector2 objectPosition, float objectSpeed)
         {
@@ -25,6 +26,11 @@ namespace MishaTheRodantSlayer.Core.Basics
             this.objectSpeed = objectSpeed;
             deadZone = 4096;
             movementNotifier = new Notifier<bool>();
+            isGameOver = false;
+        }
+        public void ToggleGameOver()
+        {
+            isGameOver = !isGameOver;
         }
 
         public void SetDeadZone(int deadZone)
@@ -42,6 +48,10 @@ namespace MishaTheRodantSlayer.Core.Basics
 
         public Vector2 KeyboardContorlSystem(KeyboardState kState, GameTime gameTime)
         {
+            if (isGameOver)
+            {
+                return objectPosition;
+            }
             float updatedObjectSpeed = objectSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             var prevPosition = objectPosition;
@@ -69,6 +79,10 @@ namespace MishaTheRodantSlayer.Core.Basics
         }
         public Vector2 JoystickControlSystem(JoystickState jState, GameTime gameTime)
         {
+            if (isGameOver)
+            {
+                return objectPosition;
+            }
             float updatedObjectSpeed = objectSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             var prevPosition = objectPosition;
@@ -98,6 +112,10 @@ namespace MishaTheRodantSlayer.Core.Basics
 
         public Vector2 GamePadControlSystem(GamePadState gpState, GameTime gameTime)
         {
+            if (isGameOver)
+            {
+                return objectPosition;
+            }
             float updatedObjectSpeed = objectSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             var prevPosition = objectPosition;

@@ -13,15 +13,15 @@ namespace MishaTheRodantSlayer.Core.GameArtifacts
         private readonly ControlSystem2D controlSystem2D;
         private bool isMoving = false;
 
-        public Player() : base()
+        public Player() : base(true)
         {
             currentDirection = Data.Directions.Right.ToString();
-            frameNames = [
+            SetFrameNames([
                 "misha_walk_000",
                 "misha_walk_001",
                 "misha_walk_002"
-            ];
-            controlSystem2D = new ControlSystem2D(Position);
+            ]);
+            controlSystem2D = new ControlSystem2D(GetPosition());
             controlSystem2D.AddMovementObserver(this);
             Health = 100;
             Damage = 1;
@@ -30,22 +30,28 @@ namespace MishaTheRodantSlayer.Core.GameArtifacts
 
         internal void SetPosition(Vector2 position)
         {
-            this.Position = position;
-            Rectangle = new Rectangle((int)Position.X, (int)Position.Y, frameTextures[0].Width, frameTextures[0].Height);
-            controlSystem2D.SetObjectPosition(Position);
+            SetObjectPosition(position);
+            SetRectangle(new Rectangle(
+                (int)position.X,
+                (int)position.Y,
+                GetTextureWidth(),
+                GetTextureHeight()
+            ));
+            controlSystem2D.SetObjectPosition(GetPosition());
         }
 
         internal override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
-            Position = controlSystem2D.KeyboardContorlSystem(Keyboard.GetState(), gameTime);
-            if (previousPosition != Position)
+            SetObjectPosition(controlSystem2D.KeyboardContorlSystem(Keyboard.GetState(), gameTime));
+            Vector2 currentPosition = GetPosition();
+            if (previousPosition != currentPosition)
             {
-                if (Position.X > previousPosition.X)
+                if (currentPosition.X > previousPosition.X)
                 {
                     currentDirection = Data.Directions.Right.ToString();
                 }
-                else if (Position.X < previousPosition.X)
+                else if (currentPosition.X < previousPosition.X)
                 {
                     currentDirection = Data.Directions.Left.ToString();
                 }
@@ -53,12 +59,18 @@ namespace MishaTheRodantSlayer.Core.GameArtifacts
                 {
                     base.Update(gameTime);
                 }
-                previousPosition = Position;
+                previousPosition = currentPosition;
+            }
+            if (Health <= 0)
+            {
+                controlSystem2D.RemoveMovementObserver(this);
+                controlSystem2D.ToggleGameOver();
             }
         }
         internal override void Draw(SpriteBatch spriteBatch)
         {
             SpriteEffects spriteEffects = SpriteEffects.None;
+            float rotation = 0f;
 
             if (currentDirection == Data.Directions.Left.ToString())
             {
@@ -68,14 +80,17 @@ namespace MishaTheRodantSlayer.Core.GameArtifacts
             {
                 spriteEffects = SpriteEffects.None;
             }
-
+            if (Health <= 0)
+            {
+                rotation = 1f;
+            }
             if (isMoving)
             {
-                spriteBatch.Draw(frameTextures[currentFrame], Rectangle, null, Color.White, 0f, Vector2.Zero, spriteEffects, 0f);
+                spriteBatch.Draw(GetFrameTexture(GetCurrentFrameIndex()), GetBoundingBox(), null, Color.White, rotation, Vector2.Zero, spriteEffects, 0f);
             }
             else
             {
-                spriteBatch.Draw(frameTextures[0], Rectangle, null, Color.White, 0f, Vector2.Zero, spriteEffects, 0f);
+                spriteBatch.Draw(GetFrameTexture(0), GetBoundingBox(), null, Color.White, rotation, Vector2.Zero, spriteEffects, 0f);
             }
         }
 

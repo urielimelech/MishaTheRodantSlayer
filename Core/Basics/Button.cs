@@ -20,6 +20,5 @@ namespace MishaTheRodantSlayer.Core.Basics
                 spriteBatch.Draw(Texture, Rectangle, Color.DarkGray);
             }
         }
-
     }
 }
