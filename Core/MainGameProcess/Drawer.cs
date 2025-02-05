@@ -8,11 +8,7 @@ public partial class GameProcess : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // _spriteBatch.Begin();
         gsm.Draw(_spriteBatch);
-        // gameScene.DrawScene(_spriteBatch, gameScene.GetCameraPosition(), GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
-        // mainCharacter.Draw(_spriteBatch, GraphicsDevice);
-        // _spriteBatch.End();
 
         base.Draw(gameTime);
     }

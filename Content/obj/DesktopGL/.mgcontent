@@ -10,6 +10,7 @@
     <File>c:/Dev/Games/MishaTheRodantSlayer/Content/../assets/rodant.png</File>
     <File>c:/Dev/Games/MishaTheRodantSlayer/Content/ball.png</File>
     <File>c:/Dev/Games/MishaTheRodantSlayer/Content/field_background.png</File>
+    <File>c:/Dev/Games/MishaTheRodantSlayer/Content/game_over.png</File>
     <File>c:/Dev/Games/MishaTheRodantSlayer/Content/menu_000.png</File>
     <File>c:/Dev/Games/MishaTheRodantSlayer/Content/menu_001.png</File>
     <File>c:/Dev/Games/MishaTheRodantSlayer/Content/menu_002.png</File>
@@ -26,6 +27,7 @@
     <File>menu_001.png</File>
     <File>menu_002.png</File>
     <File>rodant.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

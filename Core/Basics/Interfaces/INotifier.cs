@@ -1,7 +1,7 @@
 
 using System;
 
-namespace GameData.Utils.DesignPatterns.Notifier
+namespace MishaTheRodantSlayer.Core.Basics.Interfaces
 {
     public interface INotifier<T>
     {

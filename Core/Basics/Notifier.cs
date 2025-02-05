@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using MishaTheRodantSlayer.Core.Basics.Interfaces;
 
-namespace GameData.Utils.DesignPatterns.Notifier
+namespace MishaTheRodantSlayer.Core.Basics
 {
     public class Notifier<T> : INotifier<T>
     {

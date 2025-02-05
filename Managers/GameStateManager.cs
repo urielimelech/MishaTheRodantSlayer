@@ -2,15 +2,14 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using MishaTheRodantSlayer.Core.Basics;
-using MishaTheRodantSlayer.Core.GameArtifacts;
 using MishaTheRodantSlayer.Scenes;
 
 namespace MishaTheRodantSlayer.Managers
 {
     internal partial class GameStateManager : Component
     {
-        private MenuScene menuScene = new MenuScene();
-        private GameScene1 gameScene = new GameScene1();
+        private readonly MenuScene menuScene = new();
+        private readonly GameScene gameScene = new();
 
         internal override void LoadContent(ContentManager content)
         {
@@ -51,7 +50,5 @@ namespace MishaTheRodantSlayer.Managers
                     break;
             }
         }
-
-        // public GameState CurrentGameState { get; private set; }
     }
 }
